@@ -9,21 +9,21 @@
                 Hangyás
             </h1>
         </header>
-        <div id="body">
-            <nav>
-                <ul id="menu">
-                {% for my_page in site.pages %}
-                  {% if my_page.title %}
-                    <li>
-                        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-                    </li>
-                  {% endif %}
-                {% endfor %}
-                </ul>
-            </nav>
-            <div id="content">
-              {{ content }}
-            </div>
+        <nav>
+            <ul id="menu">
+              <li>
+                  <a href="apps">apps</a>
+              </li>
+              <li>
+                  <a href="small_projects">small projects</a>
+              </li>
+              <li>
+                  <a href="old_things">old things</a>
+              </li>
+            </ul>
+        </nav>
+        <div id="content">
+          {{ content }}
         </div>
     </body>
 </html>

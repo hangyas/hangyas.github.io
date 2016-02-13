@@ -19,3 +19,9 @@ github_username:  hangyas
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: true
+  syntax_highlighter: rouge

@@ -21,7 +21,7 @@ header {
     height: 400px;
 }
 
-h1 {
+header h1 {
     font-weight: 900;
     font-size: 6em;
     font-style: italic;
@@ -64,15 +64,18 @@ ul li a:hover {
     border-bottom: 3px solid #4A90E2;
 }
 
-#body{
+#content{
   background: #fff;
-}
-
-p {
-    margin: 20px 20%;
+  display: block;
+  padding: 20px 20%;
 }
 
 .important {
     font-weight: 900;
     font-style: bold;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
 }
