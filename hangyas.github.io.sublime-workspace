@@ -1,0 +1,719 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"header",
+				"headercanvas"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"load",
+				"loadtext"
+			],
+			[
+				"penis",
+				"penisimg"
+			],
+			[
+				"video",
+				"video_url"
+			],
+			[
+				"mpe",
+				"mpeg4_url"
+			],
+			[
+				"gif",
+				"gif_url"
+			],
+			[
+				"rest",
+				"restul_array"
+			],
+			[
+				"photo",
+				"photo_url"
+			],
+			[
+				"res",
+				"restul_array"
+			],
+			[
+				"ansr",
+				"answer_inline_query"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"inline",
+				"inline_query"
+			],
+			[
+				"ch",
+				"choosen"
+			],
+			[
+				"bo",
+				"boundary"
+			],
+			[
+				"mi",
+				"mime_type"
+			],
+			[
+				"ini",
+				"initialize_handler"
+			],
+			[
+				"json",
+				"json_data"
+			],
+			[
+				"chat",
+				"chat_id"
+			],
+			[
+				"last",
+				"last_alert"
+			],
+			[
+				"nam",
+				"names2"
+			],
+			[
+				"n",
+				"names2"
+			],
+			[
+				"repl",
+				"reply_to_message_id"
+			],
+			[
+				"re",
+				"reply_markup"
+			],
+			[
+				"reply_",
+				"reply_to_message_id"
+			],
+			[
+				"co",
+				"comperator"
+			],
+			[
+				"sift",
+				"siftDown"
+			],
+			[
+				"sif",
+				"siftDown"
+			],
+			[
+				"par",
+				"parent"
+			],
+			[
+				"si",
+				"size"
+			],
+			[
+				"initi",
+				"initial_capacity"
+			],
+			[
+				"encod",
+				"encode64sss"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "habzsibot.md",
+			"settings":
+			{
+				"buffer_size": 1418,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nMaterial Theme\n--------------\n\n  Material Theme for Sublime Text 3\n  https://github.com/equinusocio/material-theme\n  \n  👉 Version 2.0.7 👈\n  ********************************************************************************\n  \n  🏮 COLOR SCHEMES\n  \n    ➼ Update all Oceanic Next color Schemes from original repositories.\n    ➼ Fix some JS and Python color highlight issues\n    ➼ Fix html attributes highlight when have parent have childrends\n",
+			"settings":
+			{
+				"buffer_size": 489,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 90,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "ss css",
+		"selected_items":
+		[
+			[
+				"ss css",
+				"Set Syntax: CSS"
+			],
+			[
+				"pck remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"format html",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"format css",
+				"CodeFormatter: Format as CSS Syntax"
+			],
+			[
+				"format",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"ss cr",
+				"Set Syntax: Crystal"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ss json",
+				"Set Syntax: JSON"
+			],
+			[
+				"pack instal",
+				"Package Control: Install Package"
+			],
+			[
+				"foarmat",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"hex",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"ss c",
+				"Set Syntax: C"
+			],
+			[
+				"ss ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packag up",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"ss c++",
+				"Set Syntax: C++"
+			],
+			[
+				"ss ",
+				"Set Syntax: Crystal"
+			],
+			[
+				"pckg insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ss java",
+				"Set Syntax: Java"
+			],
+			[
+				"ss make",
+				"Set Syntax: Makefile"
+			],
+			[
+				"ss bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ss sc",
+				"Set Syntax: Scala"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ss mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ss mdow",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ss js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 382.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/hangyas/prog/hangyas.github.io"
+	],
+	"file_history":
+	[
+		"/home/hangyas/prog/hangyas.github.io/_config.yml",
+		"/home/hangyas/prog/hangyas.github.io/_layouts/default.html",
+		"/home/hangyas/prog/hangyas.github.io/old.md",
+		"/home/hangyas/prog/hangyas.github.io/apps.md",
+		"/home/hangyas/prog/hangyas.github.io/small projects.md",
+		"/home/hangyas/prog/hangyas.github.io/warg.md",
+		"/home/hangyas/prog/habzsibot/src/habzsibot.cr",
+		"/home/hangyas/prog/habzsibot/src/HabzsiBot/time_handler.cr",
+		"/home/hangyas/prog/hangyas.github.io/map.md",
+		"/home/hangyas/prog/hangyas.github.io/habzsibot.md",
+		"/home/hangyas/prog/hangyas.github.io/css/main.css",
+		"/home/hangyas/prog/hangyas.github.io/_includes/head.html",
+		"/home/hangyas/prog/hangyas.github.io/css/main.scss",
+		"/home/hangyas/prog/hangyas.github.io/index.html",
+		"/home/hangyas/prog/hangyas.github.io/.gitignore",
+		"/home/hangyas/.gnupg/dirmngr.conf",
+		"/home/hangyas/prog/mari/index.html",
+		"/home/hangyas/prog/mari/main.css",
+		"/home/hangyas/.config/fish/config.fish",
+		"/home/hangyas/d/help.txt",
+		"/home/hangyas/prog/habzsibot/src/alga.cr",
+		"/home/hangyas/prog/alga/src/alga.cr",
+		"/home/hangyas/prog/HabzsiBot/src/HabzsiBot/data.cr",
+		"/home/hangyas/prog/HabzsiBot/libs/TelegramBot/TelegramBot/cmd_handler.cr",
+		"/home/hangyas/prog/HabzsiBot/src/HabzsiBot.cr",
+		"/home/hangyas/Downloads/Telegram Desktop/HPall_szerk.txt",
+		"/home/hangyas/Downloads/Telegram Desktop/HPall_szerk (2).txt",
+		"/home/hangyas/d/Dropbox/prog/alga/HPall.txt",
+		"/home/hangyas/prog/alga/HPall.txt",
+		"/home/hangyas/.local/share/gnome-shell/extensions/tracker-search-master@anyad/metadata.json",
+		"/home/hangyas/hangyas.net/home/hangyas/HabzsiBot/habzsibot.sh",
+		"/home/hangyas/hangyas.net/etc/init.d/hangyasweb",
+		"/home/hangyas/hangyas.net/etc/init.d/habzsibot",
+		"/home/hangyas/prog/DragonRabbitBot/src/dragon_rabbit_bot.cr",
+		"/home/hangyas/hangyas.net/home/hangyas/HabzsiBot/log.txt",
+		"/home/hangyas/prog/TelegramBot/README.md",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot/types/inline_query_result_article.cr",
+		"/home/hangyas/prog/DragonRabbitBot/libs/TelegramBot/TelegramBot/types/inline_query_result_gif.cr",
+		"/home/hangyas/prog/DragonRabbitBot/libs/TelegramBot/TelegramBot/types/inline_query_result_mpeg4_gif.cr",
+		"/home/hangyas/prog/DragonRabbitBot/libs/TelegramBot/TelegramBot/types/inline_query_result_video.cr",
+		"/home/hangyas/prog/DragonRabbitBot/libs/TelegramBot/TelegramBot/types/inline_query_result_photo.cr",
+		"/home/hangyas/prog/DragonRabbitBot/libs/TelegramBot/TelegramBot/types/inline_query_result_article.cr",
+		"/home/hangyas/hangyas.net/srv/static/robots.txt",
+		"/home/hangyas/prog/DragonRabbitBot/libs/TelegramBot/TelegramBot/types/update.cr",
+		"/home/hangyas/prog/DragonRabbitBot/libs/TelegramBot/TelegramBot/cmd_handler.cr",
+		"/home/hangyas/prog/DragonRabbitBot/libs/TelegramBot/TelegramBot/http_client_multipart.cr",
+		"/home/hangyas/prog/DragonRabbitBot/libs/TelegramBot/TelegramBot/types/inline_query_result.cr",
+		"/home/hangyas/prog/DragonRabbitBot/libs/TelegramBot/TelegramBot/types/inline_query.cr",
+		"/home/hangyas/prog/DragonRabbitBot/libs/TelegramBot/TelegramBot/types/reply_keyboard_hide.cr",
+		"/home/hangyas/prog/DragonRabbitBot/libs/TelegramBot/TelegramBot/types/choosen_inline_result.cr",
+		"/home/hangyas/prog/DragonRabbitBot/libs/TelegramBot/TelegramBot/http_client_mulipart.cr",
+		"/home/hangyas/prog/DragonRabbitBot/libs/TelegramBot/TelegramBot/types/inline_query",
+		"/home/hangyas/prog/DragonRabbitBot/shard.yml",
+		"/home/hangyas/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/hangyas/.config/sublime-text-3/Packages/User/QuickThemes.sublime-settings",
+		"/home/hangyas/.config/fish/functions/fish_prompt.fish",
+		"/home/hangyas/d/Dropbox/prog/TelegramBot/src/TelegramBot.cr",
+		"/etc/systemd/journald.conf",
+		"/home/hangyas/d/powder/powder.pref",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot/bot.cr",
+		"/home/hangyas/Dropbox/prog/hangyasweb/src/main/scala/net/hangyas/web/AppPromo.scala",
+		"/home/hangyas/Dropbox/prog/webserver/src/main/java/HangyasServer.java",
+		"/home/hangyas/Dropbox/prog/webserver/src/main/scala/Asdd.scala",
+		"/home/hangyas/Dropbox/prog/hangyasweb/src/main/java/net/hangyas/web/HangyasWeb.java",
+		"/home/hangyas/d/Dropbox (asd inc)/www/hangyasweb/src/main/java/net/hangyas/web/HangyasWeb.java",
+		"/home/hangyas/d/Dropbox (asd inc)/norsandor/prog/2013-2014/Képmentegetés/jocimek/05.txt",
+		"/home/hangyas/d/Dropbox (asd inc)/prog/consuela.sh",
+		"/home/hangyas/d/Dropbox (asd inc)/prog/calculator/src/main/scala/net/hangyas/calculator/Calculator.scala",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot/cmd_handler.cr",
+		"/home/hangyas/prog/HabzsiBot/libs/TelegramBot/TelegramBot.cr",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot/types/message.cr",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot/types/user.cr",
+		"/home/hangyas/.local/share/gnome-shell/extensions/system-monitor@paradoxxx.zero.gmail.com/metadata.json",
+		"/home/hangyas/d/Android-SVG-Asset-Generator-master/lastprocess",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot/CmdHandler.cr",
+		"/home/hangyas/prog/HabzsiBot/src/HabzsiBot/alert.cr",
+		"/home/hangyas/prog/HabzsiBot/data.json",
+		"/home/hangyas/.config/fish/fishd.hangyas-arch",
+		"/home/hangyas/hangyas.net/etc/init.d/hangyas_server",
+		"/home/hangyas/d/powder/README",
+		"/home/hangyas/Downloads/Telegram Desktop/algoritmusok_altalanosan.txt",
+		"/home/hangyas/prog/HabzsiBot/src/test.cr",
+		"/home/hangyas/prog/HabzsiBot/libs/TelegramBot/TelegramBot/user.cr",
+		"/usr/share/applications/qv4l2.desktop",
+		"/home/hangyas/.apps/desktops/ori.desktop",
+		"/home/hangyas/.apps/desktops/bionika.desktop",
+		"/home/hangyas/Downloads/Lethis Path of Progress v1.3.1-ALI213 [Full game repack by LOBUNO]/README by LOBUNO.txt",
+		"/home/hangyas/.apps/desktops/_bionika.desktop.desktop",
+		"/run/media/hangyas/sd/little drummer boy.txt",
+		"/home/hangyas/d/Dropbox/suli/VIP infó C[S]++/legnagyobbkozososztok.cpp",
+		"/home/hangyas/d/Dropbox/suli/VIP infó C[S]++/hal.txt",
+		"/home/hangyas/d/Dropbox/suli/kerfa/kerfa.cpp",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot/chat.cr",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot/message.cr",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot/object.cr",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot/update.cr",
+		"/home/hangyas/prog/marosi/input.cr",
+		"/home/hangyas/prog/marosi/main.c",
+		"/home/hangyas/.apps/desktops/telegramdesktop.desktop",
+		"/home/hangyas/.apps/desktops/idea.desktop",
+		"/home/hangyas/prog/asd/src/nagyhazi/Main.java",
+		"/home/hangyas/d/test",
+		"/home/hangyas/prog/asd/Main.java",
+		"/home/hangyas/prog/marosi/FOGLALASOK.DAT",
+		"/home/hangyas/.cache/.fr-p2TfUX/main.c",
+		"/home/hangyas/Downloads/Telegram Desktop/Program.cs",
+		"/home/hangyas/d/Dropbox/infoverseny/NNG/rendezopalyaudvar/m1.txt",
+		"/home/hangyas/d/Dropbox/infoverseny/NNG/uzenet/example.txt",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot/user.cr",
+		"/home/hangyas/d/Dropbox/infoverseny/NNG/uzenet/dns.txt",
+		"/home/hangyas/d/Dropbox/infoverseny/NNG/uzenet/bitseq",
+		"/home/hangyas/d/Dropbox/infoverseny/NNG/uzenet/decode/main.cpp",
+		"/home/hangyas/d/Dropbox/infoverseny/NNG/rendezopalyaudvar/m2.txt",
+		"/home/hangyas/d/Dropbox/infoverseny/NNG/rendezopalyaudvar/m3.txt",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot.cr",
+		"/home/hangyas/prog/HabzsiBot/libs/TelegramBot/TelegramBot/audio.cr",
+		"/home/hangyas/prog/HabzsiBot_/shard.yml",
+		"/home/hangyas/d/Dropbox/prog/TelegramBot/.gitignore",
+		"/home/hangyas/prog/TelegramBot/spec/TelegramBot_spec.cr",
+		"/home/hangyas/prog/TelegramBot/spec/spec_helper.cr",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot/require \"json\"",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot/audio.cr",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot/document.cr",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot/Sticker.cr",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot/video.cr",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot/user_profile_photos.cr",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot/file.cr",
+		"/home/hangyas/prog/TelegramBot/src/TelegramBot/reply_keyboard_markup.cr"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"---",
+			"h_rry",
+			"job",
+			"array",
+			"sdf",
+			"FOGLALOLISTACIKLUS",
+			"status",
+			"58",
+			"allow all",
+			"http_port",
+			"port",
+			"http_port ",
+			"http_port 28",
+			"visible_hostname",
+			"http_access allo",
+			"http_port",
+			"http",
+			"first",
+			"gc",
+			"load",
+			"2",
+			"wave",
+			"hullam",
+			"deviceId",
+			"\"#",
+			"colors",
+			"\"v\"",
+			"State",
+			"State *",
+			"stack",
+			"status",
+			"Status",
+			"vm."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"front",
+			">",
+			"state",
+			"State",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "habzsibot.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1418,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1418,
+								1418
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 163.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 489,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								489,
+								489
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 90,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								90,
+								90
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+							"syntax": "Packages/Material Theme/langs/Git.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.crystal_errors":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 205.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "hangyas.github.io.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"hb",
+				"habzsibot.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -24,7 +24,6 @@ reloadtxt:
 randtxt:
 ```
 
-
 időformátum
 -----------
 __relatív:__ `1w7d24h60m` bármelyik elhagyható és bármekkora lehet, írható többször bármilyen sorrendben  
@@ -39,5 +38,11 @@ git push origin master
 ssh okosság
 -----------
 
-http://stackoverflow.com/questions/1764380/push-to-a-non-bare-git-repository  
+clone habzsibot: git clone ssh://hangyas@hangyas.net/home/hangyas/habzsibot
+
+http://stackoverflow.com/questions/1764380/push-to-a-non-bare-git-repository
 http://stackoverflow.com/questions/6167905/git-clone-through-ssh
+
+git log -p -2 //utolsó 2 részletesen
+git log --oneline
+git reset <shorthash>
