@@ -10,6 +10,7 @@ alert: [idő] <üzenet> idő nélkül 12h
 alerts: list alerts
 snooze: [idő] utolsó alert újraalertelése
 penis: penis kép küldése a defautl chatbe
+addpenis: penis inlinehoz ad képet
 update: update.sh -- ~/prog/TelegramBot pull + habzsibot reset --hard HEAD
 restart: exit(), utána a daemon remélhetőleg újraindítja
 version: verziószám (dátum) visszadása, remélhetőleg nem felejtettem el átírni
