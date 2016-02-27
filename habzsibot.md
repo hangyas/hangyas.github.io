@@ -9,20 +9,13 @@ commands
 alert: [idő] <üzenet> idő nélkül 12h
 alerts: list alerts
 snooze: [idő] utolsó alert újraalertelése
-penis: penis kép küldése a defautl chatbe
-addpenis: penis inlinehoz ad képet
+penis: random penis kép küldése a defautl chatbe
+addpenis: képet kell hozzá küldeni és hozzáadja a penis képekhez...
 update: update.sh -- ~/prog/TelegramBot pull + habzsibot reset --hard HEAD
 restart: exit(), utána a daemon remélhetőleg újraindítja
 version: verziószám (dátum) visszadása, remélhetőleg nem felejtettem el átírni
 setdefault: default chat beállítása ahova a penis képet küldi mindenképpen
-setpenis: kell hozzá képet küldeni és akkor beállítja a penis képet
 time: time...
-note: valami noteot felír de többnyire nem tudjuk mi történik
-notes: note ok listázása
-loadtxt: random szöveggenerátorhzo, de nem fér el a ramban
-deletetxt:
-reloadtxt:
-randtxt:
 ```
 
 időformátum

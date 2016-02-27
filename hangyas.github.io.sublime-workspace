@@ -535,7 +535,7 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 510.0,
+						"translation.y": 391.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -650,6 +650,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/prog/habzsibot/habzsibot.sublime-project"
+			]
 		],
 		"width": 380.0
 	},
