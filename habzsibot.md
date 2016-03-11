@@ -6,8 +6,9 @@ permalink: habzsibot
 commands
 --------
 ```
-alert: [idő] <üzenet> idő nélkül 12h
+alert: [idő] [repeat] <üzenet> idő nélkül 12h
 alerts: list alerts
+remove: remove alerts -- canceleljéte ha közben az egyik élesedne
 snooze: [idő] utolsó alert újraalertelése
 penis: random penis kép küldése a defautl chatbe
 addpenis: képet kell hozzá küldeni és hozzáadja a penis képekhez...
@@ -22,6 +23,8 @@ időformátum
 -----------
 __relatív:__ `1w7d24h60m` bármelyik elhagyható és bármekkora lehet, írható többször bármilyen sorrendben  
 __abszolút:__ `:mounth:day:hour:minute | :day:hour:minute | :hour:minute | :hour` lehet a minuteot mindenhonnan el lehetne hagyni 
+
+__repeat__ `&` kerekter utána relatív idő
 
 update
 ------
