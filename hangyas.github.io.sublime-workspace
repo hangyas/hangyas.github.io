@@ -143,7 +143,24 @@
 			"file": "habzsibot.md",
 			"settings":
 			{
-				"buffer_size": 1453,
+				"buffer_size": 1366,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "http://openweathermap.org/api - ingyen csak egy napra van előjelzés\nrandom odlaról screenshotolhatunk phantom.js-el de kell hozzá minden szar meg nagy adatforgalom\nyahoo nál sql szerű lekérdezés bonyolult(?)",
+			"settings":
+			{
+				"buffer_size": 207,
+				"line_ending": "Unix",
+				"name": "http://openweathermap.org/api - ingyen csak egy na"
+			}
+		},
+		{
+			"file": "/home/hangyas/d/help.txt",
+			"settings":
+			{
+				"buffer_size": 711,
 				"line_ending": "Unix"
 			}
 		},
@@ -518,15 +535,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1453,
+						"buffer_size": 1366,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								809,
-								809
+								83,
+								83
 							]
 						],
 						"settings":
@@ -535,7 +552,7 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 391.0,
+						"translation.y": 78.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -543,6 +560,62 @@
 				},
 				{
 					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								42
+							]
+						],
+						"settings":
+						{
+							"auto_name": "http://openweathermap.org/api - ingyen csak egy na",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/hangyas/d/help.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 711,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
@@ -567,7 +640,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -634,6 +707,10 @@
 		"selected_items":
 		[
 			[
+				"habzs",
+				"habzsibot.md"
+			],
+			[
 				"gitig",
 				".gitignore"
 			],
@@ -647,9 +724,17 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "hab",
 		"selected_items":
 		[
+			[
+				"hab",
+				"~/prog/habzsibot/habzsibot.sublime-project"
+			],
+			[
+				"bn",
+				"~/prog/bnybot/bnybot.sublime-project"
+			],
 			[
 				"",
 				"~/prog/habzsibot/habzsibot.sublime-project"
@@ -674,7 +759,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 250.0,
+	"side_bar_width": 209.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

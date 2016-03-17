@@ -8,6 +8,7 @@ commands
 ```
 alert: [idő] [repeat] <üzenet> idő nélkül 12h
 alerts: list alerts
+req:  [idő] [repeat] <link> megnyitja a linket, ha response code != 200 akkor kiírja a tartalmát (különben csak logba)
 remove: remove alerts -- canceleljéte ha közben az egyik élesedne
 snooze: [idő] utolsó alert újraalertelése
 penis: random penis kép küldése a defautl chatbe
