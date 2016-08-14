@@ -4,6 +4,12 @@ title: small projects
 permalink: small_projects
 ---
 
+TelegramBot
+===========
+Telegram Bot API Wrapper for Crystal
+[https://github.com/hangyas/TelegramBot](https://github.com/hangyas/TelegramBot)
+
+
 SharedEnderchest
 ================
 
@@ -16,14 +22,14 @@ A small bukkit plugin, that makes the enderchest content the same for each playe
 Paca
 ====
 
-[standard](http://hangyas.net/projects/paca/index.html)
-[hd](http://hangyas.net/projects/paca/hd.html)
-[blur](http://hangyas.net/projects/paca/blur.html)
+[standard](projects/paca/index.html)
+[hd](projects/paca/hd.html)
+[blur](projects/paca/blur.html)
 
 mapgen
 ======
 
-[generator](http://hangyas.net/projects/mapgen/index.html)
-[más módszer, alakítható map](http://hangyas.net/projects/mapgen/three_game/index.html)
 [repkedős](http://jsfiddle.net/adamkrisz/LamDX/light/)
 [2d](http://jsfiddle.net/adamkrisz/nkh3X/)
+[generator (broken)](http://hangyas.net/projects/mapgen/index.html)
+[más módszer, alakítható map (broken)](projects/three_game/index.html)

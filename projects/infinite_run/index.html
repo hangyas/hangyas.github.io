@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+        <title>platformer</title>
+
+        <script type='text/javascript' src='jquery.js'></script>
+        <script type='text/javascript' src='webgl-2d.js'></script>
+        <script type='text/javascript' src='platformer.js'></script>
+        <script type='text/javascript' src='dragdealer.js'></script>
+
+        <link rel="stylesheet" href="dragdealer.css">
+
+        <link rel="stylesheet" href="def.css">
+
+    </head>
+    <body>
+        <script type="text/javascript">
+		var elem = $("body").get(0);
+		if (elem.requestFullscreen) {
+		  elem.requestFullscreen();
+		} else if (elem.mozRequestFullScreen) {
+		  elem.mozRequestFullScreen();
+		} else if (elem.webkitRequestFullscreen) {
+		  elem.webkitRequestFullscreen();
+		}
+        try{
+           // screen.orientation("landscape")
+            screen.LockOrientation("landscape-primary")
+           /* screen.onorientationchange = function(){
+            
+				console.log("asdsada")
+			} */
+        }catch(e){}
+        try{
+            //screen.mozOrientation("landscape")
+            screen.mozLockOrientation("landscape-primary")
+           /* screen.onmozorientationchange = function(){
+				console.log("asdsada")
+            }*/
+        }catch(e){}
+        
+        </script>
+        
+        <div id="main-menu" class="center layer">
+            <h1>Infinite Run</h1>
+            <button onClick="setScreen('lvl-menu')">start</button>
+        </div>
+
+        <div id="lvl-menu" class="layer dragdealer">
+            <div id="level-list" class="handle"><!--
+                <div class="slide center">
+    				<button onClick="startGame(0)" class="bigBtn center">
+                        <div class="img-wrap">
+                            <img src="img/forest.png">
+                            <img src="img/lock.png">
+                        </div>
+    					Forest
+                        <p id="record-0"></p>
+    				</button>
+                </div>
+                <div class="slide center">
+                    <button onClick="startGame(1)" class="bigBtn center">
+                        <img src="img/egypt.png"><br>
+                        Egypt
+                        <p id="record-1"></p>
+                    </button>
+                </div>-->
+			</div>
+            <div id="lvl-menu-back">
+                <button onclick="stopGame()">×</button>
+            </div>
+        </div>
+        
+        <div id="game-over" class="layer center">
+            <button onclick="setScreen('lvl-menu')">
+                Game over!<br>
+                <img src="img/skull.png" width="102" style="margin:20px auto;">
+                <span id="over-distance"></span><br><br>
+                back
+            </button>
+        </div>
+
+        <div id="game" class="layer game-bg">
+            <canvas id="screen" width="640" height="400" class="layer"></canvas>
+
+            <div class="floating layer">
+                <div style="top: 6px; left: 100px;" id="distance">
+                
+                </div>
+                <div style="bottom: 0px; left: 0px;">
+                    <button onclick="left()">&lt</button>
+                    <button onclick="right()">&gt</button>
+                </div>
+                <div style="top: 0px; right: 0px;">
+                    <button onclick="pauseGame()" id="pauseBtn">&#x25B5</button>
+                    <button onclick="continueGame()" id="contBtn">▶</button>
+                    <button onclick="stopGame()">×</button>
+                </div>
+                <div style="bottom: 0px; right: 0px;">
+                    <button onClick="jump()" style="font-size: 20px;">jump</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+

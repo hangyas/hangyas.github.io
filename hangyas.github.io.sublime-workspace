@@ -151,15 +151,16 @@
 			"file": "quadro.md",
 			"settings":
 			{
-				"buffer_size": 248,
+				"buffer_size": 301,
 				"line_ending": "Unix",
 				"name": "---"
 			}
 		},
 		{
+			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1230,
 				"line_ending": "Unix"
 			}
 		},
@@ -176,7 +177,7 @@
 			"file": "/home/hangyas/d/help.txt",
 			"settings":
 			{
-				"buffer_size": 711,
+				"buffer_size": 2002,
 				"line_ending": "Unix"
 			}
 		},
@@ -338,7 +339,8 @@
 	},
 	"expanded_folders":
 	[
-		"/home/hangyas/prog/hangyas.github.io"
+		"/home/hangyas/prog/hangyas.github.io",
+		"/home/hangyas/prog/hangyas.github.io/css"
 	],
 	"file_history":
 	[
@@ -542,7 +544,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -571,7 +573,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -580,15 +582,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 248,
+						"buffer_size": 301,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								248,
-								248
+								70,
+								70
 							]
 						],
 						"settings":
@@ -600,34 +602,37 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "css/main.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1230,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1148,
+								1148
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 1071.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -664,7 +669,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 711,
+						"buffer_size": 2002,
 						"regions":
 						{
 						},

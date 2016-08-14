@@ -7,25 +7,27 @@ permalink: old_things
 WEB
 ===
 
-[képek](http://imgur.com/a/6cVPu)
+[képek](http://imgur.com/a/6cVPu) [zip](projects/zseleklub_imgur.zip)
 
 [legelső](http://zsele.club.hu/)
+[valahanyadik](projects/hangyaoldal_mentes/default.html)
+[masvalahanyadik](projects/hangyasnet_1/hangyas.net.htm)
 
 Firefox OS
 ==========
 
- - [AntPaint](http://hangyas.net/projects/ffos/antpaint/index.html) - [market](https://marketplace.firefox.com/app/antpaint)
- - [Trianglr](http://hangyas.net/projects/ffos/trianglr/menu.svg;360;640) - [market](https://marketplace.firefox.com/app/trianglr)
- - Gammy - [market](https://marketplace.firefox.com/app/gammy)
+ - [AntPaint](projects/ffos/antpaint/index.html) - [market](https://marketplace.firefox.com/app/antpaint)
+ - Trianglr - [market](https://marketplace.firefox.com/app/trianglr)
+ - Gammy - [market](https://marketplace.firefox.com/app/gammy), [concept](projects/random_pics/gammy_concept.svg)
  - FingerBall - [market](https://marketplace.firefox.com/app/fingerball)
  - FlyingBall - [market](https://marketplace.firefox.com/app/flyingball)
- - [Infinite Run](http://hangyas.net/projects/ffos/infinite_run/embed.html)
+ - [Infinite Run](projects/infinite_run/index.html)
 
 Flash
 =====
 
-[egy növény élete](http://hangyas.net/projects/flash/noveny.html)
-[feltépő](http://hangyas.net/#page:projects/flash/faltepo.html)
+[egy növény élete](projects/hangyaoldal_mentes/default_007.html)
+[feltépő](projects/hangyaoldal_mentes/default_007.html)
 
 
 Java játékok
@@ -37,9 +39,9 @@ Azteca
 
 Logikai játék, melyben labirintusokon kell átjutni úgy, hogy a falakat kapcsolók segitségével változtathatjuk meg. 
 
-[img0](http://hangyas.net/projects/java-szenvelges/azteca/0.png)
-[img1](http://hangyas.net/projects/java-szenvelges/azteca/1.png)
-[img2](http://hangyas.net/projects/java-szenvelges/azteca/2.png)
+[img0](projects/azteca/img0.png)
+[img1](projects/azteca/img1.png)
+[logo](projects/azteca/logo.png)
 
 [win](http://hangyas.net/projects/java-szenvelges/azteca/azteca_win.zip)
 [linux](http://hangyas.net/projects/java-szenvelges/azteca/azteca_linux.zip)
@@ -49,8 +51,8 @@ FOB
 
 Körökre osztott félkész stratégiai multiplayer játék, amit ~~valószinüleg~~ sosem fogok befejezni.
 
-[download](http://hangyas.net/projects/java-szenvelges/FOB/FoB.jar)
-[screenshot](http://hangyas.net/projects/java-szenvelges/FOB/1.png)
+[download](projects/hangyaoldal_mentes/fob.jar)
+[screenshot](projects/random_pics/fob0.png)
 
 2D RTS
 ------
@@ -75,11 +77,12 @@ tervek:
  - multiplayer
  - mobok
 
-[win](http://hangyas.net/projects/java-szenvelges/2d_rts/win.zip)
-[linux](http://hangyas.net/projects/java-szenvelges/2d_rts/win.zip)
-
 Tologatós
 ---------
 
-[v1](http://hangyas.net/projects/tologat%C3%B3s/tologatos_1.html)
-[v2](http://hangyas.net/projects/tologat%C3%B3s/tologatos_2.html)
+[v1](projects/hangyaoldal_mentes/default_004.html)
+[v2](projects/hangyaoldal_mentes/default_003.html)
+
+Random hazi
+-----------
+[sajt](projects/sajt/index.html)
