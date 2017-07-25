@@ -1,0 +1,26 @@
+{
+    "version": "1.0.3",
+    "name": "Infinite Run",
+    "description": "infinite platformer game",
+    "launch_path": "/index.html",
+	"orientation": ["landscape-primary"],
+    "icons": {
+        "128": "/img/128.png",
+        "60": "/img/60.png"
+    },
+    "developer": {
+        "name": "Ádám Krisztián",
+        "url": "http://hangyas.net"
+    },
+    "installs_allowed_from": ["*"],
+    "locales": {
+        "hu": {
+            "description": "végtelen platformer játék",
+            "developer": {
+                "name": "Krisztián Ádám",
+                "url": "http://hangyas.net"
+            }
+        }
+    },
+    "default_locale": "en"
+}

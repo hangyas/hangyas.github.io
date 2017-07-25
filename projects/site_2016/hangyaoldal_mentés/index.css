@@ -1,0 +1,32 @@
+/* ::::: http://fonts.googleapis.com/css?family=Advent+Pro|Buenard&subset=latin,latin-ext ::::: */
+
+@font-face {
+	font-family: "Advent Pro";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Advent Pro Regular"), local("AdventPro-Regular"), url('xfe7shdkddjbje_wqrwhybsxeywm7fgeyasgu71clg0.woff') format("woff");
+}
+@font-face {
+	font-family: "Buenard";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Buenard"), local("Buenard-Regular"), url('4jou7ojod9g3_ow8hto7lg.woff') format("woff");
+}
+/* ::::: http://hangyas.webuda.com/js/svwp_style.css ::::: */
+
+a:focus { outline: medium none; }
+/* ::::: http://hangyas.webuda.com/style.css ::::: */
+
+body, p { font-family: 'Buenard',serif; color: rgb(79, 79, 79); }
+body { background-image: url('bg.jpg'); }
+#tartalom { margin: auto; position: relative; width: 634px; }
+#tartalom, .module { background: none repeat scroll 0px 0px rgba(255, 255, 255, 0.76); border: 1px solid rgba(0, 0, 0, 0.4); border-radius: 8px; margin-top: 8px; padding: 8px; }
+#head { background-image: url('head.png'); background-repeat: no-repeat; width: 520px; height: 100px; margin: auto; position: relative; font-family: 'Advent Pro',sans-serif; font-weight: 400; font-size: 80px; padding-left: 120px; color: rgb(0, 0, 0); }
+h1 { font-family: 'Advent Pro',sans-serif; font-weight: 400; border-bottom: 1px solid rgba(0, 0, 0, 0.4); margin-bottom: 10px; color: rgb(0, 0, 0); }
+a { color: rgb(0, 0, 0); }
+a:hover { text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5); }
+.menu { position: absolute; top: 100px; left: 50px; }
+.module { width: 200px; margin-top: 8px; list-style-type: none; }
+.module h1 { border-bottom: 1px solid rgb(153, 153, 153); margin: 0px; font-size: 18px; }
+.menu a { text-decoration: none; color: rgb(98, 98, 98); display: block; }
+.menu a:hover { color: rgb(0, 0, 0); }

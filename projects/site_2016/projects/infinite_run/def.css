@@ -1,0 +1,124 @@
+@font-face{
+    font-family: pressStart;
+    src: url('fonts/PressStart2P-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+body{
+    font-size: 16px;
+    font-family: pressStart;
+    color: #fff;
+    text-shadow: 2px 2px 0px #000, 1px 1px 10px #000;
+}
+
+.layer{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#screen{
+    z-index: 1;
+}
+
+#bg{
+    z-index: 0;
+}
+
+button{
+    font-size: 24px;
+    font-family: pressStart;
+    background: none;
+    border: none;
+    color: #fff;
+    text-shadow: 2px 2px 0px #000, 1px 1px 10px #000;
+    position: relative;
+    min-width: 10px;
+    padding: 20px;
+}
+
+.bigBtn{
+}
+
+.img-wrap{
+    border: solid 6px #fff;
+    box-shadow: 1px 1px 10px #000;
+    margin-bottom: 18px !important;
+    width: 128px;
+    height: 128px;
+}
+
+.img-wrap img{
+    position: absolute;
+    margin: 0px auto;
+}
+
+h1{
+    width: 403px;
+    font-size: 32px;
+    margin-top: 20px !important;
+    opacity: 0.7;
+}
+
+.game-bg{
+    background: url(img/bg-mountains.png);
+}
+
+#main-menu,
+#lvl-menu,
+#game-over,
+#game
+{
+    width: 100%;
+    height: 100%;
+}
+
+#main-menu,
+#game-over,
+#lvl-menu{
+    background-image: url(img/bg-mountains.png);
+}
+
+#lvl-menu{
+    overflow:hidden;
+}
+
+.handle{
+}
+
+.slide{
+    position: relative;
+    float: left;
+}
+
+.center *{
+    margin: 0px auto 0px auto;
+    position: relative;
+    display: block;
+}
+
+.floating{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.floating div{
+    position: absolute;
+}
+
+canvas, img{
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+#lvl-menu-back{
+    float: right;
+}

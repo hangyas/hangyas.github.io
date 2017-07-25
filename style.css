@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    color: #525252;
+}
+
+#left{
+    width: 250px;
+    background-color: #f7f7f7;
+    height: 100%;
+    position: fixed;
+    top: 0;
+}
+
+#left img{
+    width: calc(100% - 40px);
+    margin: 20px;
+}
+
+#left a{
+    display: block;
+    padding: 15px;
+    color: #B3B3B3;
+/*     border-right: solid #87b8d0 5px; */
+    border-right: 5px solid #ccddf1;
+    text-decoration: none;
+/*     font-weight: 600; */
+    font-size: 16px;
+}
+
+#left a:hover {
+    color: #4A90E2;
+/*     border-right: solid #87b8d0 5px; */
+    border-right: 5px solid #4A90E2;
+}
+
+#right{
+    margin-left: 380px;
+    margin-top: 90px;
+    padding-right: 90px;
+}
+
+h1 {
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 26px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 28.6px;
+}
+
+h1 img{
+	width: 26px;
+}
+
+h2 {
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+
+p, body {
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+blockquote {
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714px;
+}

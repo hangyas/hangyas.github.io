@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>quadro</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/highlight.css">
+  <link rel="canonical" href="http://yourdomain.com/quadro">
+  <link rel="alternate" type="application/rss+xml" title="Hangyás" href="http://yourdomain.com/feed.xml">
+
+  
+        <script src="background.js">
+        </script>
+        <script type="text/javascript">
+            window.onload = function(){
+              canvas = document.getElementById("headercanvas")
+              canvas.width = window.innerWidth
+              canvas.height = 400
+              Bg().start("headercanvas", 5, 8);
+            }
+        </script>
+</head>
+
+    <body>
+        <header>
+            <canvas id="headercanvas">
+            </canvas>
+            <h1>
+                Hangyás
+            </h1>
+        </header>
+        <nav>
+            <ul id="menu">
+              <li>
+                  <a href="apps">apps</a>
+              </li>
+              <li>
+                  <a href="small_projects">small projects</a>
+              </li>
+              <li>
+                  <a href="old_things">old things</a>
+              </li>
+            </ul>
+        </nav>
+        <div id="content">
+          <h2 id="webcam">webcam</h2>
+
+<p>laptopon működött kommand: <code class="highlighter-rouge">cvlc -vvv v4l:///dev/video1 --sout '#rtp{sdp=rtsp://:8081/test.sdp}' :demux=h264</code><br />
+<em>/dev/video1 / /dev/video0</em><br />
+megnyitás: <code class="highlighter-rouge">vlc rtsp://0.0.0.0:8081/test.sdp</code></p>
+
+<p><strong>sztem adjuk fel amíg nem lesz vlc 2.2.2</strong></p>
+
+        </div>
+    </body>
+</html>
