@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-		<title>hangyas</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<div id="left">
-			<img src="avatar.png">
-			<a href="index.html">projects</a>
-			<a href="small_projects.html">small projects</a>
-			<a href="old_stuff.html">old stuff</a>
-		</div>
+   <head>
+      <title>hangyas</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="css/iconmonstr-iconic-font.css">
+   </head>
+   <body>
+      <div class="container">
+         <div id="header">
+               <div class="menu">
+                  <img src="bear.svg" style="vertical-align: middle;" onclick="open('bear.svg')">
+                  <a href="javascript:open('introduction.html')">introduction</a>
+                  <a href="javascript:open('old_stuff.html')">old stuff</a>
+               </div>
+               <div class="menu" style="float: right;">
+                  <a href="mailto:adamkrisz@gmail.com" class="mail"><i class="im im-mail"></i>mail</a>
+                  <a href="https://github.com/hangyas"><i class="im im-github"></i>github</a>
+                  <a href="https://t.me/hangyas" class="telegram"><i class="im im-paperplane"></i> Telegram</a>
+               </div>
+         </div>
+         <div id="content"></div>
 
-		<div id="right">
-			<h1><img src="projects/slide/slide.webp"> Slide!</h1>
-			<a href="https://play.google.com/store/apps/details?id=hangyas.net.slide">Google Play</a><br>
-			<!-- <img src="projects/slide/1.webp" height="300px"> -->
+<script>
+    var files = {}
 
+    function open(file){
+        document.getElementById('content').innerHTML = files[file]
+    }
 
-			<h1><img src="projects/antpaint/icon.webp"> AntPaint</h1>
-			<a href="https://play.google.com/store/apps/details?id=net.hangyas.antpaint.app">Google Play</a><br>
-			<!-- <img src="projects/antpaint/1.webp" height="300px"> -->
-		</div>
-	</body>
+    function load(file, autoopen){
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', file);
+        xhr.onload = function() {
+            if (xhr.status === 200){
+                files[file] = xhr.responseText
+                if(autoopen)
+                    open(file)
+                // document.getElementById('content').innerHTML = xhr.responseText;
+            } else {
+                alert('Request failed.  Returned status of ' + xhr.status);
+            }
+        };
+        xhr.send();
+    }
+
+    load('introduction.html', true)
+    load('old_stuff.html', false)
+    load('bear.svg', false)
+</script>
+
+      </div>
+   </body>
 </html>

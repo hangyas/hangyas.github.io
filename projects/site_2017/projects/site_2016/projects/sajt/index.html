@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sajt</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+            table{
+                border-collapse:collapse;
+                background-image: url("./wall.png");
+                margin: auto;
+            }
+            td {
+                width: 32px;
+                height: 32px;
+                padding: 0px;
+            }
+            .t0{
+            }
+            .t1{
+                background-image: url("./1.png");
+            }
+            .t2{
+                background-image: url("./2.png");
+            }
+            .t3{
+                background-image: url("./3.png");
+            }
+            .t4{
+                background-image: url("./4.png");
+            }
+            #cucc{
+                left: 50px;
+                top: 50px;
+                position: absolute;
+            }
+        </style>
+    </head>
+    <body>
+        <script language="JavaScript">
+            /**
+             * 0:semmi, 1:sajt, 2:lyuk, 3:fal
+             **/
+            map = [[3, 0, 2, 0, 0],
+                   [3, 0, 0, 0, 0],
+                   [3, 0, 1, 0, 0],
+                   [3, 0, 0, 0, 0],
+                   [3, 0, 0, 0, 0]];
+            oszlop=map.length, sor=map[0].length;
+               
+            egerX = 3, egerY = 4, pont = 0;
+            var tabla; 
+            
+            function init(){
+                if (document.addEventListener)
+                    document.addEventListener("keypress",keypress,false);
+                else if (document.attachEvent)
+                    document.attachEvent("onkeypress", keypress);
+                else
+                    document.onkeypress= keypress;
+                
+                tabla = document.getElementById("tabla").tBodies[0];
+                ujtabla = "";
+                
+                for(i=0; i<map.length; i++){
+                    ujtabla += "<tr>";
+                    for(k=0; k<map[0].length; k++){
+                        ujtabla += "<td class='t"+map[i][k]+"'></td>";
+                    }
+                    ujtabla += "</tr>";
+                }
+                
+                document.getElementById("tabla").tBodies[0].innerHTML = ujtabla;
+                tablaset(egerX, egerY, 4);
+            }
+            
+            
+            function keypress(e){
+                if (!e) e= event;
+                
+                if(e.keyCode == 38){
+                    //fel
+                    egerlep(-1, 0);
+                }else  if(e.keyCode == 40){
+                    //le
+                    egerlep(1, 0);
+                }else  if(e.keyCode == 39){
+                    //jobbra
+                    egerlep(0, 1);
+                }else if(e.keyCode == 37){
+                    //balra
+                    egerlep(0, -1);
+                }
+//                return suppressdefault(e,document.testform.keypress.checked);
+            }
+            
+            function egerlep(xv, yv){
+                ujx = egerX + xv;
+                ujy = egerY + yv;
+                
+                if (ujx < 0 || ujx > oszlop || ujy < 0 || ujy > sor || map[ujx][ujy] > 1)
+                    return;
+                else if ((map[ujx][ujy] == 1 && sajtTol(ujx, ujy, ujx+xv, ujy+yv)) || map[ujx][ujy] == 0){
+                    tablaset(egerX, egerY, 0);
+                    egerX += xv;
+                    egerY += yv;
+                    tablaset(egerX, egerY, 4);
+                }
+            }
+            
+            function sajtTol(rx, ry, ujx, ujy){
+                if (ujx < 0 || ujx > oszlop || ujy < 0 || ujy > sor || map[ujx][ujy] != 0 && map[ujx][ujy] != 2 || map[rx][ry] != 1 )
+                    return false;
+                
+                tablaset(rx, ry, 0);
+                if (map[ujx][ujy] == 2){
+                    pontad();
+                }else{
+                    tablaset(ujx, ujy, 1);
+                }
+                
+                return true;
+            }
+            
+            function tablaset(x, y, i){
+                map[x][y] = i;
+                tabla.rows[x].cells[y].className = "t"+i;
+            }
+            
+            function pontad(){
+                pont++;
+                document.getElementById("pontok").innerHTML = "Pontszámod: "+pont;
+            }
+            
+        </script>
+        <table id="tabla">
+            <tr><td>asd</td></tr>
+        </table>
+        <div id="cucc">
+            <img src="info.png">
+            <div id="pontok">Pontszámod: 0</div>
+        </div>
+        <script>
+            init();
+        </script>
+    </body>
+</html>

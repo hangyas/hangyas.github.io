@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../sitemap.xsl" type="text/xsl" media="all"?>
+<site>
+<page file="index.html" text="Hangyás" title="Hangyás">
+<page file="default.html" text="Azteca" title="Hangyás"/>
+<page file="default_001.html" text="AntEditor" title="Hangyás"/>
+<page file="default_002.html" text=" Letöltések" title="Hangyás"/>
+<page file="default_003.html" text="Tologatós 2.0" title="Hangyás"/>
+<page file="default_004.html" text="Tologatós" title="Hangyás"/>
+<page file="default_005.html" text="FOB" title="Hangyás"/>
+<page file="default_006.html" text="2D rts" title="Hangyás"/>
+<page file="default_007.html" text="Flash" title="Hangyás"/>
+</page>
+</site>

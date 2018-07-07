@@ -1,0 +1,9 @@
+http://hangyas.webuda.com/	index
+http://hangyas.webuda.com/?o=azteca	default
+http://hangyas.webuda.com/?o=anteditor	default_001
+http://hangyas.webuda.com/?o=downloads	default_002
+http://hangyas.webuda.com/?o=tologatos_2.0	default_003
+http://hangyas.webuda.com/?o=tologatos	default_004
+http://hangyas.webuda.com/?o=fob	default_005
+http://hangyas.webuda.com/?o=2Drts	default_006
+http://hangyas.webuda.com/?o=flash	default_007

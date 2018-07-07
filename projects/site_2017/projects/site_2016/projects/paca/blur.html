@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Paca</title>
+
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #display{
+            position: fixed;
+            top:0px;
+            left:0px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Include Scala.js compiled code -->
+    <script type="text/javascript" src="scala-2.11/paca-fastopt.js"></script>
+    <!-- Run tutorial.webapp.TutorialApp -->
+    <script type="text/javascript">
+        window.onload = function(){
+            Main().main({scale: 1, blur: true});
+        }
+    </script>
+
+    <canvas id="display"></canvas>
+
+</body>
+</html>

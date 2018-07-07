@@ -1,0 +1,135 @@
+body{
+    background: #fafafa; 
+    margin: 0px 0px 200px 200px;
+    font-family: 'Roboto Slab', serif;
+    font-size:15px;
+    padding-top: 60px;
+}
+
+a{
+    color: #155218
+}
+
+a:hover{
+    color: #4CAF50
+}
+
+h1{
+  background: #8BC34A;
+  display: block;
+  color: #F0F4C3;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  padding: 10px;
+}
+
+ul{
+    display: inline-block;
+    max-width: 300px;
+    vertical-align: top;
+    margin: 0px;
+}
+
+li.title{
+    list-style: none;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+
+li:not(.title){
+    list-style-image: url(img/list.png);
+    margin-bottom: 3px;
+}
+
+li img{
+    margin-bottom: -6px;
+    margin-right: 6px;
+    width: 27px;
+    height: px;
+}
+
+#head{
+    background: #689F38;
+    width: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+#head img, #head span{
+    border: 5px solid #fafafa;
+    margin: 10px;
+    display: block;
+    background: #fafafa;
+    width: 150px;
+    color: #689F38;
+    font-weight: 600;
+}
+
+#head span{
+    margin-top: -10px;
+}
+
+#head a{
+    font-size: 20px;
+    color: #fafafa;
+    text-decoration: none;
+    margin: 13px;
+    float: bottom;
+}
+
+#head a:hover{
+    color: rgba(250, 250, 250, .5);
+}
+
+
+
+#lightbox {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.75);
+    text-align:center;
+    z-index: 200;
+}
+
+#lightbox #close {
+    position: fixed;
+    color:#fff;
+    right:20px;
+    bottom:20px;
+    margin: 0;
+    font-size:12px;
+}
+
+#lightbox #content {
+    box-shadow:0 0 25px #111;
+    margin: 50px;
+    padding: 20px;
+    display: inline-block;
+    background: #fff;
+    min-width: 600px;
+    max-width: 800px;
+    min-height: 200px;
+    text-align: left;
+}
+#lightbox #content img{
+    max-width: 600px;
+}
+
+#lightbox iframe{
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    margin: 0 auto;
+}
+
+#outline{
+    margin-top: 50px;
+}

@@ -1,0 +1,145 @@
+<html>
+</html<html>
+	<head>
+		<title>three_game @ hangyás</title>
+
+		<meta charset="utf-8"></meta>
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+		<link rel="stylesheet" href="font-awesome/font-awesome.min.css">
+		<style>
+
+		</style>
+	</head>
+	<body>
+
+		<!--	TOOBLAR		-->
+		<div class="btn-toolbar">
+		<div class="btn-group">
+			<a href="#save" onClick="showJSON5()" class="btn btn-inverse"><i class="icon-save"></i> save</a>
+			<a href="#load" onClick="$('#load_modal').modal('toggle')" class="btn btn-inverse"><i class="icon-folder-close"></i> load</a>
+		</div>
+		<div class="btn-group">
+			<a href="#" onClick="tool = digg" class="btn btn-inverse">digg</a>
+			<a href="#" onClick="tool = build" class="btn btn-inverse">build</a>
+			<a href="#" onClick="tool = putSource" class="btn btn-inverse">put source</a>
+		</div>
+			<a href="#" onClick="napej()" class="btn btn-inverse"><i class="icon-adjust"></i> napej</a>
+		</div>
+
+		<!-- json5out -->
+		<div id="json_modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3 id="myModalLabel">JSON5</h3>
+			</div>
+			<div class="modal-body" id="json5out">
+				<p>One fine body…</p>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-primary" onClick="fnSelect('json5out')">Select</button>
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+			</div>
+		</div>
+
+		<!-- load -->
+		<div id="load_modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3 id="myModalLabel">load map from JSON5</h3>
+			</div>
+			<div class="modal-body">
+				<textarea id="json5input">
+					json5 here
+				</textarea>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-primary" onClick="loadJSON5()">Load</button>
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+			</div>
+		</div>
+
+		<div id="container"></div>
+
+		<script type="text/javascript" src="jQuery.min.js"></script>
+		<script type="text/javascript" src="bootstrap.min.js"></script>
+		<script type="text/javascript" src="json5.js"></script>
+		<script type="text/javascript" src="three.min.js"></script>
+		<script type="text/javascript" src="three_game.js"></script>
+		
+
+		<script>
+			function Econtrols(a){
+				controls.enabled = a;
+			}
+
+			function showJSON(){
+				var str = JSON.stringify(map.savable());
+				$('#json_modal').children('.modal-body').html(str);
+				$('#json_modal').modal('toggle');
+			}
+
+			function showJSON5(){
+				var str = JSON5.stringify(getSavable(map));
+				$('#json_modal').children('.modal-body').html(str);
+				$('#json_modal').modal('toggle');
+			}
+
+			function loadJSON5(){
+				var obj = JSON5.parse( $('#json5input').val() );
+				map.load(obj);
+				scene.remove(mapMesh);
+				scene.remove(waterMesh);
+				initScene();
+				$('#load_modal').modal('toggle');
+			}
+
+		    $('.modal').on('hide', function () {
+		    	Econtrols(true);
+		    });
+		    
+		    $('.modal').on('show', function () {
+		    	Econtrols(false);
+		    });
+
+		    function napej(){
+			  if (activeLight == sunLight){
+			    scene.remove(sunLight);
+			    scene.add(moonLight);
+			    activeLight = moonLight;
+			  }else{
+			    scene.remove(moonLight);
+			    scene.add(sunLight);
+			    activeLight = sunLight;
+			  }
+			}
+
+			/**
+			 * http://www.hscripts.com/scripts/JavaScript/select-div-tag.php
+			 */
+			function fnSelect(objId)
+			{
+			   fnDeSelect();
+			   if (document.selection) 
+			   {
+			      var range = document.body.createTextRange();
+			      range.moveToElementText(document.getElementById(objId));
+			      range.select();
+			   }
+			   else if (window.getSelection) 
+			   {
+			      var range = document.createRange();
+			      range.selectNode(document.getElementById(objId));
+			      window.getSelection().addRange(range);
+			   }
+			}
+			function fnDeSelect() 
+			{
+			   if (document.selection)
+			             document.selection.empty();
+			   else if (window.getSelection)
+			              window.getSelection().removeAllRanges();
+			} 
+		</script>
+
+	</body>
+</html>

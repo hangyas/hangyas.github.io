@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>habzsibot</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/highlight.css">
+  <link rel="canonical" href="http://yourdomain.com/habzsibot">
+  <link rel="alternate" type="application/rss+xml" title="Hangyás" href="http://yourdomain.com/feed.xml">
+
+  
+        <script src="background.js">
+        </script>
+        <script type="text/javascript">
+            window.onload = function(){
+              canvas = document.getElementById("headercanvas")
+              canvas.width = window.innerWidth
+              canvas.height = 400
+              Bg().start("headercanvas", 5, 8);
+            }
+        </script>
+</head>
+
+    <body>
+        <header>
+            <canvas id="headercanvas">
+            </canvas>
+            <h1>
+                Hangyás
+            </h1>
+        </header>
+        <nav>
+            <ul id="menu">
+              <li>
+                  <a href="apps">apps</a>
+              </li>
+              <li>
+                  <a href="small_projects">small projects</a>
+              </li>
+              <li>
+                  <a href="old_things">old things</a>
+              </li>
+            </ul>
+        </nav>
+        <div id="content">
+          <h2 id="commands">commands</h2>
+<div class="highlighter-rouge"><pre class="highlight"><code>alert: [idő] [repeat] &lt;üzenet&gt; idő nélkül 12h
+alerts: list alerts
+req:  [idő] [repeat] &lt;link&gt; megnyitja a linket, ha response code != 200 akkor kiírja a tartalmát (különben csak logba)
+remove: remove alerts -- canceleljéte ha közben az egyik élesedne
+snooze: [idő] utolsó alert újraalertelése
+penis: random penis kép küldése a defautl chatbe
+addpenis: képet kell hozzá küldeni és hozzáadja a penis képekhez...
+update: update.sh -- ~/prog/TelegramBot pull + habzsibot reset --hard HEAD
+restart: exit(), utána a daemon remélhetőleg újraindítja
+version: verziószám (dátum) visszadása, remélhetőleg nem felejtettem el átírni
+setdefault: default chat beállítása ahova a penis képet küldi mindenképpen
+time: time...
+</code></pre>
+</div>
+
+<h2 id="idformtum">időformátum</h2>
+<p><strong>relatív:</strong> <code class="highlighter-rouge">1w7d24h60m</code> bármelyik elhagyható és bármekkora lehet, írható többször bármilyen sorrendben  <br />
+<strong>abszolút:</strong> <code class="highlighter-rouge">:mounth:day:hour:minute | :day:hour:minute | :hour:minute | :hour</code> lehet a minuteot mindenhonnan el lehetne hagyni</p>
+
+<p><strong>repeat</strong> <code class="highlighter-rouge">&amp;</code> kerekter utána relatív idő</p>
+
+<h2 id="update">update</h2>
+<p>git push origin master  <br />
+/update  <br />
+/restart</p>
+
+<h2 id="ssh-okossg">ssh okosság</h2>
+
+<p>clone habzsibot: git clone ssh://hangyas@hangyas.net/home/hangyas/habzsibot</p>
+
+<p>http://stackoverflow.com/questions/1764380/push-to-a-non-bare-git-repository<br />
+http://stackoverflow.com/questions/6167905/git-clone-through-ssh</p>
+
+<p>git log -p -2 //utolsó 2 részletesen<br />
+git log –oneline<br />
+git reset <shorthash></shorthash></p>
+
+        </div>
+    </body>
+</html>
