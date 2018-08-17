@@ -52,7 +52,10 @@ a.telegram:hover{
 	color: #ffffff;
 	padding: 12px;
 	border-radius: 5px;
-	text-transform:	uppercase;
+  text-transform:	uppercase;
+  display: inline-block;
+  margin-bottom: 5px;
+  white-space: nowrap;
 }
 
 .btn:hover{
