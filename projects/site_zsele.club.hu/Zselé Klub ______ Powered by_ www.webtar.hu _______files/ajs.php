@@ -1,0 +1,3 @@
+var OX_d6597d22 = '';
+OX_d6597d22 += "<"+"a href=\'http://banner.webtar.hu/www/delivery/ck.php?oaparams=2__bannerid=19__zoneid=4__cb=9b47ceec82__oadest=http%3A%2F%2Fcset.hu\' target=\'_blank\'><"+"img src=\'http://banner.webtar.hu/bannerek/csetbanner2_468x60.gif\' width=\'468\' height=\'60\' alt=\'\' title=\'\' border=\'0\' /><"+"/a><"+"div id=\'beacon_9b47ceec82\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://banner.webtar.hu/www/delivery/lg.php?bannerid=19&amp;campaignid=5&amp;zoneid=4&amp;loc=http%3A%2F%2Fzsele.club.hu%2Ffelso%2Ffelso.php&amp;referer=http%3A%2F%2Fzsele.club.hu%2Fmenu.html&amp;cb=9b47ceec82\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+document.write(OX_d6597d22);
