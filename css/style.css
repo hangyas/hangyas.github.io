@@ -26,10 +26,10 @@ a {
 	transition: all 0.2s ease-out;
 	text-decoration: none;
 	font-size: 13px;
-	color: rgb(6, 125, 247);
+	color: #ff0080;
 }
 
-p a, li a{
+p a{
 	font-size: 16px;
 }
 
@@ -75,13 +75,22 @@ a.telegram:hover{
   display: inline-block;
 }
 
-#header .menu a {
+#header .menu a, ul.links {
 	text-transform:	uppercase;
 	padding: 10px;
 	color: #999999;
 	text-decoration: none;
-	font-size:	12px;
+	font-size: 12px;
 	text-rendering: optimizeLegibility;
+}
+
+ul.links a {
+  font-size: 12px;
+  list-style-type: none;
+}
+
+ul.links {
+  list-style-type: none;
 }
 
 #header .menu a:hover {
