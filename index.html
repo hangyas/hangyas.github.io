@@ -19,6 +19,7 @@
             </div>
             <div class="menu" style="float: right;">
                 <a href="mailto:adamkrisz@gmail.com" class="mail"><i class="im im-mail"></i>mail</a>
+                <a href="https://www.linkedin.com/in/kriszti%C3%A1n-%C3%A1d%C3%A1m-6b00a9122/" class="linkedin"><i class="im im-linkedin"></i>LinkedIn</a>
                 <a href="https://github.com/hangyas"><i class="im im-github"></i>github</a>
                 <a href="https://t.me/hangyas" class="telegram"><i class="im im-paperplane"></i> Telegram</a>
             </div>
@@ -34,8 +35,8 @@
             }
 
             var page = 'introduction.html'
-            if (location.hash.length > 0)
-                page = location.hash.substring(1, location.hash.length)
+            // if (location.hash.length > 0)
+            //     page = location.hash.substring(1, location.hash.length)
 
             function load(file) {
                 var xhr = new XMLHttpRequest();
@@ -43,7 +44,7 @@
                 xhr.onload = function () {
                     if (xhr.status === 200) {
                         files[file] = xhr.responseText
-                        if (file == page)
+                        if (location.hash.length > 0 && location.hash.substring(1, location.hash.length) == file || page == file)
                             open(file)
                         // document.getElementById('content').innerHTML = xhr.responseText;
                     } else {
