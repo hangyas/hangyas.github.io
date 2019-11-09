@@ -35,9 +35,7 @@
             }
 
             var page = 'introduction.html'
-            // if (location.hash.length > 0)
-            //     page = location.hash.substring(1, location.hash.length)
-
+            
             function load(file) {
                 var xhr = new XMLHttpRequest();
                 xhr.open('GET', file);
@@ -46,7 +44,6 @@
                         files[file] = xhr.responseText
                         if (location.hash.length > 0 && location.hash.substring(1, location.hash.length) == file || page == file)
                             open(file)
-                        // document.getElementById('content').innerHTML = xhr.responseText;
                     } else {
                         alert('Request failed.  Returned status of ' + xhr.status);
                     }

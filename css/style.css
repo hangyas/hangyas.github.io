@@ -18,6 +18,10 @@ body{
   overflow: scroll;
 }
 
+::selection{
+  background: #79ffe1;
+}
+
 * {
 	transition: all 0.2s ease-out;
 }
