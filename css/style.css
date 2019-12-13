@@ -33,7 +33,7 @@ a {
 	color: #ff0080;
 }
 
-p a{
+p a, li a {
 	font-size: 16px;
 }
 
