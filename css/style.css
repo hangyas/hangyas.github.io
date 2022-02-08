@@ -214,7 +214,7 @@ h1.window-title>i:nth-child(3) {
 
 
 .avatar {
-  border-radius: 100%;
+  /* border-radius: 100%; */
 }
 
 
@@ -428,4 +428,8 @@ body {
     width: 75%;
     max-width: 60rem;
   }
+}
+
+.hover-invisible:hover {
+  opacity: 0;
 }
